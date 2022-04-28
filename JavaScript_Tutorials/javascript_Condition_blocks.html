@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Conditional Demonstration</title>
+
+    <style>
+        .form{
+            border-style:solid;
+            border-width: 1px;
+            border-radius: 10px;
+            margin: 15px;
+            width: 50%;
+            text-align: center;
+        }
+        #t1{
+            color:crimson;
+            font-style: italic;
+            font-size: 30px;
+            
+        }
+
+        #t2{
+            color:aqua;
+            font-style:oblique;
+            font-size: 30px;
+            
+        }
+
+        #t3{
+            color:blueviolet;
+            font-style: normal;
+            font-size: 30px;
+            
+        }
+        
+    </style>
+
+<script>
+    function condition()
+    {
+     if(document.getElementById("first").value == document.getElementById("second").value)
+     {
+         document.getElementById("t1").innerHTML="BOTH ARE EQUAL";
+     }
+     else if(document.getElementById("first").value >= document.getElementById("second").value)
+     {
+         document.getElementById("t2").innerHTML="FIRST NUMBER IS GRETHER THAN SECOND NUMBER";
+     }
+     else{
+         document.getElementById("t3").innerHTML="SECOND NUMBER IS GRETHER THAN FIRST NUMBER";
+     }
+    }
+
+ </script>
+
+</head>
+<body>
+    
+        
+            <h1>FIRST_NUMBER:<input type="text" id="first"></input></h1>
+            <h1>SECOND_NUMBER:<input type="text" id="second"></input></h1>
+            <button onclick="condition()">RELATION</button>
+            <div id="t1 t2 t3"></div>
+            
+        
+
+       
+</html>

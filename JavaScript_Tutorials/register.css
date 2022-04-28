@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-bg{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018550.jpg?t=st=1651145822~exp=1651146422~hmac=9fa9faf629bb09cf074b6ada284b53384816edc9b30cca9445877239afaabd6c&w=996);
+    background-size: cover;
+    height: 100vh;
+}
+form{
+    text-align: center;
+}
+.home{
+    margin: 10px;
+}
+h1{
+    color:crimson;
+    font-size:36px;
+    font-family:"Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color:#111;
+    font-size:20px;
+    font-family:"Roboto";
+    font-weight: bold;
+    padding: 10px;
+}
+
+input{
+    color:#111;
+    font-family:"Roboto";
+    padding: 5px; 
+}
+
+button{
+    border-width: 0px;
+    height: 36px;
+    width:120px;
+    margin-top: 15px;
+    
+    background-color:darkorange;;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}

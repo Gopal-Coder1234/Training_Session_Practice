@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Variable Demonstration</title>
+    
+</head>
+<body>
+    <h1>Javascript Tutorials</h1>
+    <button onclick="variable()">Variables</button>
+
+    <script>
+        function variable(){
+            var fact =1;
+            for(var i = 1; i< 10; i++){
+                fact = fact*i
+                document.write(" ",fact)
+            }
+        }
+        var a,b,c,d;
+        document.write("<h1>Before Intialization</h1>")
+        document.write("Data type of a is :", typeof a);
+        document.write("<br>Data type of b is :", typeof b);
+        document.write("<br>Data type of c is :", typeof c);
+        document.write("<br>Data type of d is :", typeof d);
+        document.write("<br>Data type of marks is :", typeof marks);
+        document.write("<br>Data type of student is :", typeof student);
+        a=10;
+        b=3.55;
+        c="Gopal"
+        d=true;
+        var marks=[10,50,60];
+        var student={name:"Gopal",rollno:426};
+        document.write("<h1>After Initialization</h1>")
+        document.write("Data type of a is :", typeof a);
+        document.write("<br>Data type of b is :", typeof b);
+        document.write("<br>Data type of c is :", typeof c);
+        document.write("<br>Data type of d is :", typeof d);
+        document.write("<br>Data type of marks is :", typeof marks);
+        document.write("<br>Data type of student is :", typeof student);
+        document.write("<br> marks of O is:",marks[2]);
+
+    </script>
+    
+</body>
+</html>

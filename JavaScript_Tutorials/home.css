@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.card-bg{
+   background-image: url(https://img.freepik.com/free-photo/dark-wall-empty-room-with-plants-floor-3d-rendering_41470-3847.jpg?t=st=1651147501~exp=1651148101~hmac=bc2b580a0cb7e57ce274841193a57b5d449ce0a7a216fcf3fafffaee0508ece3&w=996);
+    background-size: cover;
+    height: 100vh;
+}
+ul{
+    text-decoration: none;
+    text-align: right;
+}
+li{
+    display: inline;
+    padding: 50px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    
+}
+.navbar{
+    background-color:crimson;
+    border-radius: 5px;
+}
+h1{
+    color:white;
+    margin-top: 5px;
+    font-size: 36px;
+    margin-left:30px;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+h1 a:hover{
+    color:aqua;
+    font-size: 30px;
+    
+}
+ul{
+    margin-top: 10px;
+    float: right;
+}
+

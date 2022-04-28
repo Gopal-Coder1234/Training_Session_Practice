@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-bg{
+    background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?t=st=1651142201~exp=1651142801~hmac=63582915ac0f9a839364326ea13ec39f3a698514638da7ec6b7e17bea4d87233&w=1380);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main{
+    text-align: center;
+    padding-top: 10%;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 25px;
+    color:tomato;
+}
+label{
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto";
+    
+    
+}
+
+input{
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.new{
+    text-decoration: none;
+    
+    height: 36px;
+    width:120px;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+button{
+    background-color: chocolate;
+    height: 36px;
+    width:120px;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+

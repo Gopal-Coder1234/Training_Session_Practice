@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: aquamarine;
+    width: 25%;
+    margin: 25px;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card{
+    border-style: solid;
+    border-radius: 1px;
+    height: 60vh;
+}
+form{
+    margin: 20px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    align-items:flex-end;
+}
